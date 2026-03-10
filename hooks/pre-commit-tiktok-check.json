@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "matcher": "Bash(git commit*)",
+      "command": "bash hooks/tiktok-security-check.sh"
+    }
+  ]
+}
