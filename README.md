@@ -11,18 +11,9 @@ A Claude Code plugin that turns Claude into a TikTok developer expert — with c
 /plugin install tiktok-dev@claude-plugin-directory
 ```
 
-### From GitHub directly
-```bash
-/plugin install github:YOUR_USERNAME/tiktok-dev-plugin
-```
-
 ### Via this repo's marketplace
 ```bash
-# Add marketplace (one-time setup)
-/plugin marketplace add YOUR_USERNAME/tiktok-dev-plugin
-
-# Install the plugin
-/plugin install tiktok-dev@tiktok-dev-marketplace
+/plugin install tiktok-dev@tiktok-dev-marketplace 
 ```
 
 ### Local development
