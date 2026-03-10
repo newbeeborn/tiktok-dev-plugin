@@ -6,12 +6,28 @@ A Claude Code plugin that turns Claude into a TikTok developer expert — with c
 
 ## Installation
 
+### From Anthropic's Official Directory *(after submission approval)*
 ```bash
-# From local directory (development)
-claude --plugin-dir ./tiktok-dev-plugin
+/plugin install tiktok-dev@claude-plugin-directory
+```
 
-# Once published to a marketplace
-claude plugin add tiktok-dev
+### From GitHub directly
+```bash
+/plugin install github:YOUR_USERNAME/tiktok-dev-plugin
+```
+
+### Via this repo's marketplace
+```bash
+# Add marketplace (one-time setup)
+/plugin marketplace add YOUR_USERNAME/tiktok-dev-plugin
+
+# Install the plugin
+/plugin install tiktok-dev@tiktok-dev-marketplace
+```
+
+### Local development
+```bash
+claude --plugin-dir ./tiktok-dev-plugin
 ```
 
 ---
